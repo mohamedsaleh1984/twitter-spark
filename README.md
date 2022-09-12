@@ -1,4 +1,5 @@
-# Twitter-Spark
+# Big Data Technology Project 
+### Twitter-Kafka-Spark-HBase Integration
 
 Fetch a stream of tweets from twitter, push it to Kafka, ingest the stream into Spark Stream and save it to HBase and bring up reports.
 ![Workflow](./assets/workflow.png)
@@ -23,12 +24,7 @@ Creating kafka topic where we receive our stream.
 
 ### Start Kafka Producer
 Run Python Twitter Streamer (producer for Kafaka)
-> **python fetch_tweet_stream.py**
-
-
-9. python fetch_tweet_stream.py
-
-
+> **python producer.py**
 
 # Tools
 Workflow Drawing **[excalidraw](https://excalidraw.com/)**
