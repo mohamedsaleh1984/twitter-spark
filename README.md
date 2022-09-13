@@ -9,6 +9,7 @@ Fetch a stream of tweets from twitter, push it to Kafka, ingest the stream into 
 
 1. Download and extract Kafka to your machine from https://downloads.apache.org/kafka/3.2.1/kafka_2.13-3.2.1.tgz
 2. Extra it and locate it to your home directory, added the bin location to your system environment.
+
 ### 2. Runing Kafka
 1. run kafka-topics.sh on linux Or kafka-topics.bat on windows to make sure that no existsing kafka
 2. run ZooKeeper, after you run zookeeper you should get.  
@@ -17,6 +18,7 @@ Fetch a stream of tweets from twitter, push it to Kafka, ingest the stream into 
 3. run Kafka Server, after you run kafka-server you should get.
    > **kafka-server-start.bat config/server.properties**
    > > **Started socket server acceptors and processors**
+
 ### 3. Create Kafka Topic
 Creating kafka topic where we receive our stream.
    > **.\kafka-topics.bat --create --topic=twitter-topic --bootstrap-server localhost:9092 --replication-factor=1 --partitions=1**
@@ -39,3 +41,10 @@ kafka-python **[kafka-python](https://kafka-python.readthedocs.io/en/master/)**
 Kafka **[Kafka](https://kafka.apache.org/quickstart)**
 
 Workflow Drawing **[excalidraw](https://excalidraw.com/)**
+
+### References & Learning Material
+Tweepy Documentation **[Tweepy Documentation](https://docs.tweepy.org/en/stable/)**
+Kafka Documentation **[Kafka Documentation](https://kafka.apache.org/documentation/#quickstart)**
+PySpark Documentation **[PySpark Documentation](https://spark.apache.org/docs/latest/api/python/index.html)**
+Spark SQL, DataFrames and Datasets Guide **[Spark SQL, DataFrames and Datasets Guide](https://spark.apache.org/docs/latest/sql-programming-guide.html)**
+Big Data Analytics using Spark with Python | PySpark Tutorial | Intellipaat **[Big Data Analytics using Spark with Python | PySpark Tutorial | Intellipaat](https://www.youtube.com/watch?v=e5R1o55YgkU)**
