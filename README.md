@@ -44,7 +44,11 @@ Workflow Drawing **[excalidraw](https://excalidraw.com/)**
 
 ### References & Learning Material
 Tweepy Documentation **[Tweepy Documentation](https://docs.tweepy.org/en/stable/)**
+
 Kafka Documentation **[Kafka Documentation](https://kafka.apache.org/documentation/#quickstart)**
+
 PySpark Documentation **[PySpark Documentation](https://spark.apache.org/docs/latest/api/python/index.html)**
+
 Spark SQL, DataFrames and Datasets Guide **[Spark SQL, DataFrames and Datasets Guide](https://spark.apache.org/docs/latest/sql-programming-guide.html)**
+
 Big Data Analytics using Spark with Python | PySpark Tutorial | Intellipaat **[Big Data Analytics using Spark with Python | PySpark Tutorial | Intellipaat](https://www.youtube.com/watch?v=e5R1o55YgkU)**
