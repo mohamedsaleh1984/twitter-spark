@@ -15,7 +15,7 @@ class TwitterStream(tweepy.StreamingClient):
         print("Connected to Twitter Stream...")
     
     def on_data(self, data):
-        producer.send('test-topic',data)
+        producer.send('twitter-topic',data)
         print(data)
         return True
         

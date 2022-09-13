@@ -27,7 +27,10 @@ To list current topics
 
 ### 4. Start Kafka Producer
 Run Python Twitter Streamer (producer for Kafaka)
-> **python producer.py**
+> **python twitter_producer.py**
+
+## 5. Test Kafka Consumer
+> **.\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic twitter-topic --from-beginning**
 
 ### Libraries
 kafka-python **[kafka-python](https://kafka-python.readthedocs.io/en/master/)** 
