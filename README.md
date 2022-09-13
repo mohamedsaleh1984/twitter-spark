@@ -21,6 +21,7 @@ Fetch a stream of tweets from twitter, push it to Kafka, ingest the stream into 
 Creating kafka topic where we receive our stream.
    > **.\kafka-topics.bat --create --topic=twitter-topic --bootstrap-server localhost:9092 --replication-factor=1 --partitions=1**
    >> Created topic twitter-topic.
+   
 To list current topics
    > **.\kafka-topics.bat --list --bootstrap-server localhost:9092**
 
