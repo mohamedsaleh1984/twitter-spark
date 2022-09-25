@@ -29,14 +29,10 @@ Creating kafka topic where we receive our stream.
 
    >> Created topic twitter-topic-new.
    
-To list current topics
-   > **.\kafka-topics.bat --list --bootstrap-server localhost:9092**
-
+To list current topics (Testing)
    > **./kafka-topics.sh --list --bootstrap-server localhost:9092**
 
-## 4. Test Kafka Consumer
-> **.\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic twitter-topic-new --from-beginning**
-
+## 4. Test Kafka Consumer (Testing)
 > **./kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic twitter-topic-new --from-beginning**
 
 ### Tools
