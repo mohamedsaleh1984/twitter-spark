@@ -1,8 +1,8 @@
 # Big Data Technology Project 
 ### Twitter-Kafka-Spark-HBase Integration
 
-Fetch a stream of tweets from twitter, push it to Kafka, ingest the stream into Spark Stream and save it to HBase and bring up reports.
-![Workflow](./assets/workflow.png)
+Fetch a stream of tweets from twitter, push it to Kafka, ingest the stream into Spark Stream and save it to Hive  
+
 # Getting Started
 
 ### 1. Kakfa Installation 
@@ -40,24 +40,16 @@ To list current topics
 
    > **./kafka-topics.sh --list --bootstrap-server localhost:9092**
 
-### 4. Start Kafka Producer
-Run Python Twitter Streamer (producer for Kafaka)
-> **python twitter_producer.py**
+## 4. Test Kafka Consumer
+> **.\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic twitter-topic-new --from-beginning**
 
-## 5. Test Kafka Consumer
-> **.\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic twitter-topic --from-beginning**
-
-> **./kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic twitter-topic --from-beginning**
+> **./kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic twitter-topic-new --from-beginning**
 
 ### Tools
 Kafka **[Kafka](https://kafka.apache.org/quickstart)**
 
 Workflow Drawing **[excalidraw](https://excalidraw.com/)**
 
-### References & Learning Material
+### References
 
 Kafka Documentation **[Kafka Documentation](https://kafka.apache.org/documentation/#quickstart)**
-
-Spark SQL, DataFrames and Datasets Guide **[Spark SQL, DataFrames and Datasets Guide](https://spark.apache.org/docs/latest/sql-programming-guide.html)**
-
-Big Data Analytics using Spark with Python | PySpark Tutorial | Intellipaat **[Big Data Analytics using Spark with Python | PySpark Tutorial | Intellipaat](https://www.youtube.com/watch?v=e5R1o55YgkU)**
