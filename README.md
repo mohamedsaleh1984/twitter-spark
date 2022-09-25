@@ -38,8 +38,6 @@ To list current topics (Testing)
 ### Tools
 Kafka **[Kafka](https://kafka.apache.org/quickstart)**
 
-Workflow Drawing **[excalidraw](https://excalidraw.com/)**
-
 ### References
 
 Kafka Documentation **[Kafka Documentation](https://kafka.apache.org/documentation/#quickstart)**
