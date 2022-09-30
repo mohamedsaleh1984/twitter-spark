@@ -1,0 +1,20 @@
+Clear ZooKeeper/Kafka Server 
+rm -rf /tmp/zookeeper/
+rm -rf /tmp/kafka-logs
+
+1. Run ZooKeeper (inside bin folder)
+./zookeeper-server-start.sh ../config/zookeeper.properties
+
+2. Run Kafka Server (inside bin folder)
+./kafka-server-start.sh ../config/server.properties
+
+3. Create Twitter Topic (inside bin folder)
+./kafka-topics.sh --create --topic=twitter-topic-new --bootstrap-server localhost:9092 --replication-factor=1 --partitions=1
+
+
+** Check Producer....
+./kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic twitter-topic-new --from-beginning
+
+
+
+

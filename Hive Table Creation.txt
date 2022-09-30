@@ -1,0 +1,7 @@
+http://quickstart.cloudera:8888/hue/filebrowser/view=/user/cloudera#/user/hive/warehouse
+
+$hive
+Create Table tweets(id STRING, tweet STRING, lang STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t'
+STORED AS TEXTFILE
+
