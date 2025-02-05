@@ -1,4 +1,4 @@
-# Big Data Technology Project 
+
 ### Twitter-Kafka-Spark-HBase Integration
 
 Fetch a stream of tweets from twitter, push it to Kafka, ingest the stream into Spark Stream and save it to Hive  
